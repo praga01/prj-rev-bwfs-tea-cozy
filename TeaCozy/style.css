@@ -1,0 +1,170 @@
+/* Global Styles */
+
+body {
+  font-family: "Helvetica";
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;  /* needed to remove the space above the fixed header */
+}
+
+a {
+  color: seashell;
+}
+
+.flex-wrap-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header and Navigation Styles */
+
+header {
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav {
+  padding-right: 10px;
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+/* Contents */
+
+.contents {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* Mission Styles */
+
+#mission-info {
+  height: 700px;
+  padding-top: 70px;
+  background-image: url("resources/images/img-mission-background.jpg");
+}
+
+.mission-statement {
+  margin: auto 0;
+  width: 100%;
+  background-color: black;
+}
+
+.mission-statement h2,h4 {
+  margin: 0;
+  padding: 10px;  /* 5px was too little */
+}
+
+/* Tea Styles */
+
+#teas {
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+#teas h4 {
+  padding-bottom: 25px;
+}
+
+.row-items {
+  display: flex;
+  justify-content: center;
+}
+
+.sale-item {
+  text-align: center;
+}
+
+.sale-item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.sale-item span {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;   /* bold looks more like the redline */
+  display: block;
+}
+
+/* Location Styles */
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("resources/images/img-locations-background.jpg");
+}
+
+#locations h2 {
+  margin: 15px auto;
+  padding: 0;
+}
+
+.store-location {
+  opacity: 1.0;
+  width: 300px;
+  background-color: black;
+}
+
+.v-spacer {
+  height: 60px;
+}
+
+.h-spacer {
+  width: 40px;
+}
+
+/* Store Info Styles */
+
+#store-info {
+  height: 200px;
+}
+
+/* Footer Styles */
+
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
+
+/* Debug Settings
+
+div {
+  border: 1px solid green;
+}
+
+body {
+  border: 1px solid red;
+}
+
+footer {
+  border: 1px solid blue;
+}
+
+span {
+  border: 1px solid blue;
+}
+
+*/
